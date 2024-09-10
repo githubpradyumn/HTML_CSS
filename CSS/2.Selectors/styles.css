@@ -1,0 +1,23 @@
+/* Element selector */
+body {
+    font-size: 24px;
+}
+/* ID selector */
+#first{
+    color: brown;
+}
+/* class selector */
+.purple{
+    color: chocolate;
+    font-size: small;
+}
+
+.highlight{
+    background-color: aquamarine;
+
+}
+
+*{
+    font: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
