@@ -1,7 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .box-1{
-    color: aqua;
+    display: inline;
+    text-align: center;
+    height: 60px;
+    width: 120px;
+    color: rgb(5, 14, 14);
+    background-color: aqua;
 }
 
 .box-2{
-    color: blue;
+    display: inline;
+    /* we can not set the width while using the inline property */
+    height: 60px;
+    width: 60px;
+    color: rgb(0, 255, 17);
+    background-color: blue;
 }
+/* .box3{  
+}
+.box4{  
+}
+.box5{  
+}
+.box6{  
+}
+.box7{  
+}
+.box8{  
+}
+.box9{  
+}
+.box10{  
+}
+.box11{  
+}
+.box12{  
+} */
