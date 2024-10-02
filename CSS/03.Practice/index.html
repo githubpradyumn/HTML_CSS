@@ -10,9 +10,27 @@
             padding: 0%;
         }
         .navbar{
-            height: 20px;
+            height: 70px;
             background-color: aqua;
+            font-size: 15px;
+            /* text-align: left; */
+            /* display: inline; */
         }
+        li{
+            display: inline-block;
+            margin: 20px 3px;
+            font-weight: 200;
+            text-align: right;
+            
+             
+        }
+        a{
+            text-decoration: none;
+            text-align: left;
+            /* display: inline; */
+        }
+
+
 
         .right{
             height: 500px;
@@ -32,20 +50,30 @@
             width: 100%;
             background-color: black;
             color: aliceblue;
-            display: inline-block;
-            text-align: center;
+            /* display: inline-block; */
             padding: 34px;
+            text-transform: uppercase;
             
+        }
+        .center{
+            text-align: center;
+
         }
 
         </style>
 </head>
 <body>
-    <div class="navbar"></div>
-    <div class="right"></div><div class="left"></div>
+    <div class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Setting</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </div>
+    <div class="right">Lorem, ipsum dolor.</div><div class="left">Lorem ipsum dolor sit.</div>
     <footer>
         <div class="Footer">
-            copyright &copy;
+            <p class="center">Copyright &copy; Practice Set-4 All right Reserved</p>
         </div>
     </footer>
 </body>
