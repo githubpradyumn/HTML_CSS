@@ -46,10 +46,3 @@ Let's collaborate and learn together! Feel free to reach out or connect on:
 Happy Coding! 😄
 
 
-
-
-### How to Use:
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/revision-and-practice.git
-
