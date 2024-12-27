@@ -1,33 +1,19 @@
+*{
+ margin: 0;
+ padding: 0;
+}
 body{
-    /* height:344px; */
-    
+    background-color: grey;
 }
-
-
-.red{
-    background:red;
-    /* background-color: black; */
-    /* background: green; */
-    color: white;
+#p1 {
+    color: aqua;
 }
-
-.green{
-    background-color: greenyellow;
-    color: black ;
+#p2{
+    color: rgb(0, 0, 255);
 }
-
-.container{
-
-    width: 300px;
-    height: 1330px;
-    color: white;
-    border: 2px solid red;
-    /* background-image: url(https://www.thewowstyle.com/wp-content/uploads/2015/01/1-beautiful-nature-backgrounds-nature-wallpapers-nature-landscape-photo-nature-wallpapers.jpeg); */
-    /* background-repeat:no-repeat; */
-    /* background-size: 300px; */
-    /* background-position: center; */
-    /* background-attachment: scroll ; */
-    /* background-color: aqua; */
-    background: red url(https://www.thewowstyle.com/wp-content/uploads/2015/01/1-beautiful-nature-backgrounds-nature-wallpapers-nature-landscape-photo-nature-wallpapers.jpeg)
-    no-repeat fixed;
+#p3{
+    color: hsl(0, 59%, 41%);
+}
+#p4{
+    color: #ff0000 ;
 }

@@ -1,59 +1,14 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
-/* .box-1{
-    display: inline;
-    text-align: center;
-    height: 60px;
-    width: 120px;
-    color: rgb(5, 14, 14);
-    background-color: aqua;
-} */
 
-/* .box-2{
-    display: inline;
-    /* we can not set the width while using the inline property */
-    /* height: 60px; */
-    /* width: 60px; */
-    /* color: rgb(0, 255, 17); */
-    /* background-color: blue; */
-/* } */ 
-/* .box3{  
-    color: blue;
-    height: ;
-    width: ;
-    text-align: ;
-    text-decoration: ;
-} */
-/* .box4{  
-    color: brown;
-    height: ;
-    width: ;
-    text-align: ;
-    text-decoration: ;
-} */
-.box-5{  
-    background-color: rgb(244, 144, 22);
-    height: 60px;
-    /* width: 120px; */
-    text-align: center;
-    text-decoration: dashed;
-    text-transform: uppercase;
-    font-size: 24px;
-    font-family: "Edu AU VIC WA NT Guides", cursive;
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.box6{  
-}
-.box7{  
-}
-.box8{  
-}
-.box9{  
-}
-.box10{  
-}
-.box11{  
-}
-.box12{  
+p{
+    font-family: Martian Mono;
+    font-size: 16px;
+    font-weight: bolder;
+    /* font-style: italic; */
 }
