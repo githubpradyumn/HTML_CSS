@@ -1,0 +1,48 @@
+a:link{
+    color: red;
+}
+a:hover{
+    color: blue;
+    font-size: 1.1em;
+
+}
+a:active{
+    color: hotpink;
+    font-size: 1.2em;
+}
+a:visited{
+    /* color: grey; */
+}
+/* 
+li:hover{
+    background-color: whitesmoke;
+}
+li:not(:hover){
+    background-color: black;
+} */
+
+#greeting p{
+    background-color: lightblue;
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    display: block;
+}
+
+h1::first-letter{
+    font-size: 2em;
+}
+p::first-line{
+    color: red;
+}
+p::selection{
+    color:green ;
+    background-color: grey;
+}
+#fruits li::before{
+    content: "✔️";
+}
+#banana::after{
+    content: "🍌";
+}

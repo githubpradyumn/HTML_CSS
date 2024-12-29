@@ -1,4 +1,4 @@
-/* body{
+body{
     background: linear-gradient(skyblue, green) no-repeat;
    margin: 0;
    padding: 0;
@@ -22,13 +22,13 @@
   
   #night-2{
     text-align:right;
-  } */
-  *{
+  }
+  /* *{
     margin: 0px;
     padding:0%;
   }
   header{
     height:80px;
     background-color: red;
-  }
+  } */
    
