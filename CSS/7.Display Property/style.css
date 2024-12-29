@@ -1,0 +1,13 @@
+body{
+    border: 3px solid;
+}
+#image1{
+    float: left;
+    /* float: right; */
+    margin-right: 10px;
+}
+#image2{
+    /* float: left; */
+    float: right;
+    margin-right: 10px;
+}
