@@ -30,7 +30,7 @@ header{
 .navbar a:hover{
     background-color: rgb(149, 146, 146);
     color: black;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .navbar li{
