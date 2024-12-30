@@ -3,17 +3,29 @@
     padding: 0;
 }
 
+ .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start ;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    height: 40em;
+    border: 3px solid;
+} 
+
 .gallery{
-    display: inline-block;
+    display: flex;
+    flex-flow: column nowrap;
     border: 1.5px solid hsl(0, 0%, 60%);
     margin: 5px;
     width: 200px;
+    /* height: 165px; */
 }
 
 .gallery .description {
     text-decoration: none;
-    padding: 10px;
     text-align: center;
+    padding: 10px;
 }
 
 .gallery:hover{
@@ -25,5 +37,5 @@
 }
 .gallery img{
     width: 100%;
-    height: auto;
+    height: 100%;
 }

@@ -11,18 +11,29 @@
     border: 9px solid black;
     height: 40em;
     display: flex;
+    /* define the item in axis */
+    /* change direction by flex direction */
+    /* by default rows */
     /* flex-direction: row; */
-    /* justify-content:first baseline; */
+    /* justify-content align item on the main axis */
+    /* justify-content: center; */
+    /* align item on y axis */
+    /* align-items: baseline; */
     flex-wrap: wrap;
-    /* align-content: center; */
-    /* align-items: center */
+    align-content: flex-start;
+    /* gap: 1em; */
+
 
 }
 #box1{
     border: 3px solid black;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 #box2{
     border: 3px solid black;
+    align-self: center;
+    order: -1;
 }
 #box3{
     border: 3px solid black;
