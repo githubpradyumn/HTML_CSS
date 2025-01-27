@@ -8,6 +8,8 @@ console.log("Pradyumn Pratap Singh")
 
 let name = "Pradyumn"
 let age = 75
+let age_01 = 100
+
 let isLoggedIn = false
 
 // number => 2 to power 53
